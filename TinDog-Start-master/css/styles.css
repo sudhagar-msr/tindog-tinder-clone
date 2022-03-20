@@ -1,0 +1,175 @@
+body{
+    font-family: 'montserrat';
+}
+h1, h2{
+    font-family: 'montserrat-black' ,sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'montserrat-light' ,sans-serif;
+}
+
+#features{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 190px 60px 190px 60px;
+    background-color: #fff;
+    position: relative;
+    
+}
+.feature_row1{
+    width: 1.5rem;
+    width: 100%;
+    font-family: 'montserrat-bold' ,sans-serif;
+    font-weight: bold;
+}
+.feature_row2{
+    width: 1.5rem;
+    width: 1.5rem;
+    font-family: 'montserrat-bold' ,sans-serif;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.feature_row3{
+    width: 1.5rem;
+    font-family: 'montserrat-bold' ,sans-serif;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+
+}
+.ico{   
+    margin-bottom: 10px;
+    font-size: 70px;
+    color: #ef8172;
+}
+.fp1{
+    color: #8f8f8f;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.fp2{
+    color: #8f8f8f;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+.fp3{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    color: #8f8f8f;
+}
+.ico:hover{
+    color: #ff4c68;
+}
+.btns{
+    margin: 3%;
+}
+.title-image{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    margin-left: 80px;
+
+}
+
+#testimonials{
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-colomn{
+    padding: 3% 6%;
+    text-align: center;
+}
+
+.card-deck{
+    text-align: center;
+    padding: 100px 100px 100px 150px;
+
+}
+#cta{
+    text-align: center;
+    margin: auto;
+    background-color: #ff4c68;
+
+}
+.cta-text{
+    font-family: 'montserrat-black' ,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    width: 65%;
+    margin-top: 20px;
+    line-height: 1.5;
+    padding: 4% 15%;
+    text-align: center;
+    margin: auto;
+}
+#footer{
+    text-align: center;
+    padding: 3% 3% 0 0;
+}
+.foo{
+    margin-top: 70px;
+    margin: 10px;
+}
+
+@media (max-width: 1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+        margin-right: 75px;
+    }
+    #title{
+        text-align: center;
+    }
+
+}
